@@ -11,7 +11,7 @@ private:
 	Mat result_frame;
 	Mat previous_frame;
 	int thres;
-	// VideoCapture capture;
+	void GetFrame();
 public:
 	FrameProcessor(void);
 

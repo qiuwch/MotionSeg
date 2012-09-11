@@ -3,16 +3,62 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MotionSeg", "MotionSeg\MotionSeg.vcxproj", "{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zMoviePlayer", "Player\zMoviePlayer.csproj", "{C2635590-CDB4-4238-B519-4F1E92160856}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoCaptureWrapper", "VideoCaptureWrapper\VideoCaptureWrapper.vcxproj", "{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Debug|Win32.ActiveCfg = Debug|Win32
 		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Debug|Win32.Build.0 = Debug|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Release|Win32.ActiveCfg = Release|Win32
 		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Release|Win32.Build.0 = Release|Win32
+		{B5F31DB3-4D2C-46FA-8CDA-B34E8FF40393}.Release|x86.ActiveCfg = Release|Win32
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|Win32.ActiveCfg = Debug|x86
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|Win32.Build.0 = Debug|x86
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|x86.ActiveCfg = Debug|x86
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Debug|x86.Build.0 = Debug|x86
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|Win32.ActiveCfg = Release|Any CPU
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|x86.ActiveCfg = Release|x86
+		{C2635590-CDB4-4238-B519-4F1E92160856}.Release|x86.Build.0 = Release|x86
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|Win32.Build.0 = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Debug|x86.Build.0 = Debug|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Release|Any CPU.ActiveCfg = Release|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Release|Win32.ActiveCfg = Release|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Release|Win32.Build.0 = Release|Win32
+		{96954E66-C8BE-40CB-B163-1BF7F8ADEFF3}.Release|x86.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

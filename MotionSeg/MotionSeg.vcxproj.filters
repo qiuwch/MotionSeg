@@ -19,6 +19,7 @@
     <None Include="app.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="mv2_001.avi" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MotionSeg.cpp">
