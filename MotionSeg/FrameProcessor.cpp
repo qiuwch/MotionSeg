@@ -16,6 +16,10 @@ void FrameProcessor::Start()
 void FrameProcessor::ProcessLoop()
 {
   capture.open(0);
+  if (!capture.isOpened())
+    {
+      cout << "Can't open video input." << endl;
+    }
   namedWindow("raw");
   thres = 5;
   createTrackbar("trackbar", "raw", &thres, 20);
@@ -117,7 +121,10 @@ void FrameProcessor::ProcessFrame()
 
 int main()
 {
-  FrameProcessor processor;
-  processor.Start();
-  return 0;
+  cout << "Begin processing... " << endl;
+  /*
+    FrameProcessor processor;
+    processor.Start();
+    return 0;
+  */
 }
