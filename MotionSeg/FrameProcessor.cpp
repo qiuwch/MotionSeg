@@ -15,7 +15,8 @@ void FrameProcessor::Start()
 
 void FrameProcessor::ProcessLoop()
 {
-  capture.open(0);
+  capture.open("mv2_001.avi");
+  // capture.open(0);
   if (!capture.isOpened())
     {
       cout << "Can't open video input." << endl;
@@ -121,10 +122,9 @@ void FrameProcessor::ProcessFrame()
 
 int main()
 {
+  
   cout << "Begin processing... " << endl;
-  /*
-    FrameProcessor processor;
-    processor.Start();
-    return 0;
-  */
+  FrameProcessor processor;
+  processor.Start();
+  return 0;
 }
