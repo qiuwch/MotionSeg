@@ -13,8 +13,6 @@ private:
 	int thres;
 	void GetFrame();
 public:
-	FrameProcessor(void);
-
 	void ProcessLoop();
 	void ProcessFrame();
 	void Start();
